@@ -1,4 +1,4 @@
-package sefmajorproject.bookingsys;
+package septmajorproject.bookingsys;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

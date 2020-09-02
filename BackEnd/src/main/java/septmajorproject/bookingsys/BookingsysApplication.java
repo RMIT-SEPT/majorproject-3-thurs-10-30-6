@@ -1,4 +1,4 @@
-package sefmajorproject.bookingsys;
+package septmajorproject.bookingsys;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class BookingsysApplication {
     public static void main(String[] args) {
         SpringApplication.run(BookingsysApplication.class, args);
     }
-
 }

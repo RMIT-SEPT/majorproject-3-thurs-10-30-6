@@ -1,0 +1,54 @@
+.container {
+    width: 46%;
+    /* background-color: white; */
+    margin: 10% 27%;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.container > h1 {
+    color: #2197DA;
+    margin-bottom: 50px;
+}
+
+label {
+    font-size: 18px;
+    color: white;
+}
+
+input {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    width: 100%;
+    border-radius: 3px;
+    margin: 2px 0 20px 0;
+}
+
+button[type="submit"] {
+    color: white;
+    font-size: 20px;
+    background: #2197DA;
+    border: 0;
+    cursor: pointer;
+    margin-top: 17px;
+    width: 100px;
+    float: right;
+    height: 35px;
+    border-radius: 12px;
+}
+
+.col-1 {
+    width: 20%;
+    float: left;
+}
+
+.col-2 {
+    width: 60%;
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
